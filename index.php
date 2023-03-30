@@ -35,15 +35,15 @@
     <br>
     <br>
      <menu>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="COJINES.html">Cojines</a></li>
-        <li><a href="FLOREROS.html">Floreros</a></li>
-        <li><a href="LAMPARAS.html">Lamparas</a></li>
-        <li><a href="TAPETES.html">Tapetes</a></li>
-        <li><a href="CUADROS.html">Cuadros</a></li>
-        <li><a href="ESCULTURAS.html">Esculturas</a></li>
-        <li><a href="REGALOS.html">Regalos</a></li>
-        <li><a href="OTROS.html">Otros</a></li>
+        <li><a href="index.php">Inicio</a></li>
+        <li><a href="COJINES.php">Cojines</a></li>
+        <li><a href="FLOREROS.php">Floreros</a></li>
+        <li><a href="LAMPARAS.php">Lamparas</a></li>
+        <li><a href="TAPETES.php">Tapetes</a></li>
+        <li><a href="CUADROS.php">Cuadros</a></li>
+        <li><a href="ESCULTURAS.php">Esculturas</a></li>
+        <li><a href="REGALOS.php">Regalos</a></li>
+        <li><a href="OTROS.php">Otros</a></li>
     </menu>
         <div class="contenedor">
             <img src="imagenes/imagen8.PNG"width="1480px" height="800px" />
