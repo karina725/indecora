@@ -38,16 +38,17 @@
         <br>
         <br>
   
+    
      <menu>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="COJINES.html">COJINES</a></li>
-        <li><a href="FLOREROS.html">FLOREROS</a></li>
-        <li><a href="LAMPARAS.html">LAMPARAS</a></li>
-        <li><a href="TAPETES.html">TAPETES</a></li>
-        <li><a href="CUADROS.html">CUADROS</a></li>
-        <li><a href="ESCULTURAS.html">ESCULTURAS</a></li>
-        <li><a href="REGALOS.html">REGALOS</a></li>
-        <li><a href="OTROS.html">OTROS</a></li>
+        <li><a href="index.php">Inicio</a></li>
+        <li><a href="COJINES.php">COJINES</a></li>
+        <li><a href="FLOREROS.php">FLOREROS</a></li>
+        <li><a href="LAMPARAS.php">LAMPARAS</a></li>
+        <li><a href="TAPETES.php">TAPETES</a></li>
+        <li><a href="CUADROS.php">CUADROS</a></li>
+        <li><a href="ESCULTURAS.php">ESCULTURAS</a></li>
+        <li><a href="REGALOS.php">REGALOS</a></li>
+        <li><a href="OTROS.php">OTROS</a></li>
         <li><a href="FORMULARIO.php">FORMULARIO</a></li>
     </menu>
 
