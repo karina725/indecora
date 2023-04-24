@@ -1,34 +1,48 @@
-<html>
-<head>
-    <title>Formulario de ejemplo</title>
-</head>
-<body>
-    <h1>Formulario de ejemplo</h1>
-    <h2>Agregar registro</h2>
-    <form method="post" action="agregar.php">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <input type="submit" value="Agregar">
-    </form>
-
-    <h2>Editar registro</h2>
-    <form method="post" action="editar.php">
-        <label for="id">ID:</label>
-        <input type="text" id="id" name="id" required><br><br>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <input type="submit" value="Editar">
-    </form>
-
-    <h2>Eliminar registro</h2>
-    <form method="post" action="eliminar.php">
-        <label for="id">ID:</label>
-        <input type="text" id="id" name="id" required><br><br>
-        <input type="submit" value="Eliminar">
-    </form>
-</body>
-</html>
+<?php
+            if( (isset($_POST["names"])) && (isset($_POST["ages"])) && (isset($_POST["estado"])) && (isset($_POST["surname"])) && (isset($_POST["opciones"]))) {
+                echo "Bienvenido ". $_POST['names'] ; 
+                echo " ". $_POST["surname"] ; 
+                echo " Tu edad es ". $_POST["ages"]. " años.<br/><br/>";
+                echo " Nos visitas de ". $_POST["estado"]. "<br/><br/>" ; 
+                echo " Tus gustos son: ";
+                foreach($_POST['opciones'] as $seleccion) {
+                    echo "<p>".$seleccion ."</p>";
+                }
+            }
+            
+        ?>
+    <form action="<?php $_PHP_SELF ?>" method="POST">
+        <div Formulario:><br/>
+                Nombres:
+                <input type="text" name="names"/>
+                <br/><br/>
+                Apellido:
+                <input type="text" name="surname"/>
+                <br/><br/>
+                Años:
+                <input type="text" name="ages"/>
+                <br/><br/>
+        </div>
+        <div class="dinamico">
+            <label for="estado">De donde nos visitas </label>
+            <select id="estado" name="estado" required>
+                <option value="">Estado</option>
+                <option value="Aguascalientes">Aguascalientes</option>
+                <option value="Cancun">Cancun</option>
+                <option value="Sonora">Sonora</option>
+                <option value="Veracruz">Veracruz</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Guadalajra">Guadalajra</option>
+            </select>
+            <br/><br/>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" name="opciones[]" value="Cojines">Cojines <br/><br/> 
+            <input type="checkbox" name="opciones[]" value="Lamparas">Lamparas <br/><br/>
+            <input type="checkbox" name="opciones[]" value="Cuadros">Cuadros <br/><br/> 
+            <input type="checkbox" name="opciones[]" value="Jarrones">Jarrones <br/><br/>
+            <input type="checkbox" name="opciones[]" value="Esculturas">Esculturas <br/><br/>
+            <input type="checkbox" name="opciones[]" value="Tapetes">Tapetes <br/><br/>
+        </div>
+        <input name="submit" type="submit"/>
+    </form>     
