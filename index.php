@@ -44,7 +44,9 @@
         <li><a href="ESCULTURAS.html">ESCULTURAS</a></li>
         <li><a href="REGALOS.html">REGALOS</a></li>
         <li><a href="OTROS.html">OTROS</a></li>
+        <li><a href="FORMULARIO.php">FORMULARIO</a></li>
     </menu>
+
         <div class="contenedor">
             <img src="imagenes/imagen8.PNG"width="1480px" height="800px" />
             <div class="texto-encima">¿NECESITAS<br>DECORAR? ¡NUNCA HABÍA SIDO<br>TAN FÁCIL!</div>
