@@ -92,6 +92,8 @@
             </select>
             <br/><br/>
         </div>
+        
+            <label for="estado">¿Que articulos te gustan interesan? </label>
         <div class="checkbox">
             <input type="checkbox" name="opciones[]" value="Cojines">Cojines <br/><br/> 
             <input type="checkbox" name="opciones[]" value="Lamparas">Lamparas <br/><br/>
