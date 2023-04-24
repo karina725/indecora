@@ -1,3 +1,51 @@
+<html>
+    <head>
+        <title>INDECORA</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content=""/>
+        <meta name="author" content="karina guadalupe barragan jara"/>
+    </head>
+    <body>
+        <link type="text/css" rel="stylesheet" href="estilo/estilo1.css">
+    <p> 
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="imagenes/imagen3.png" width="50px" height="50px" HSPACE="0"  aling ="right" aling= "justify">BLOG&nbsp&nbsp&nbsp
+        <img src="imagenes/imagen4.png" width="50px" height="40px" HSPACE="0"  aling ="right" aling= "justify"  >CUENTA&nbsp&nbsp&nbsp&nbsp
+        <img src="imagenes/imagen5.png" width="60px" height="40px" HSPACE="0"  aling ="right" aling= "justify">UBICACION&nbsp&nbsp&nbsp
+        <img src="imagenes/imagen6.png" width="70px" height="40px" HSPACE="0"  aling ="right" aling= "justify">33-24-93-09-55
+    </p>
+            
+    <div class="titulo">
+        <img src="imagenes/imagen1.png"width="300px" height="300px" />
+        <div class="titulo-texto">INDECORA</div>
+        <div class="titulo-texto1">UNA SOLUCION PARA TODOS</div> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        <img src="imagenes/imagen2.png"width="200px"/>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+     <menu>
+        <li><a href="index.php">Inicio</a></li>
+        <li><a href="COJINES.php">COJINES</a></li>
+        <li><a href="FLOREROS.php">FLOREROS</a></li>
+        <li><a href="LAMPARAS.php">LAMPARAS</a></li>
+        <li><a href="TAPETES.php">TAPETES</a></li>
+        <li><a href="CUADROS.php">CUADROS</a></li>
+        <li><a href="ESCULTURAS.php">ESCULTURAS</a></li>
+        <li><a href="REGALOS.php">REGALOS</a></li>
+        <li><a href="OTROS.php">OTROS</a></li>
+        <li><a href="FORMULARIO.php">FORMULARIO</a></li>
+    </menu>
 <?php
             if( (isset($_POST["names"])) && (isset($_POST["ages"])) && (isset($_POST["estado"])) && (isset($_POST["surname"])) && (isset($_POST["opciones"]))) {
                 echo "Bienvenido ". $_POST['names'] ; 
@@ -45,4 +93,6 @@
             <input type="checkbox" name="opciones[]" value="Tapetes">Tapetes <br/><br/>
         </div>
         <input name="submit" type="submit"/>
-    </form>     
+    </form>
+        </body>
+</html>
