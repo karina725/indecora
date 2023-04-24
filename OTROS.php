@@ -37,7 +37,7 @@
         <br>
         <br>
         <br>
-      <menu>
+        <menu>
         <li><a href="index.php">Inicio</a></li>
         <li><a href="COJINES.php">COJINES</a></li>
         <li><a href="FLOREROS.php">FLOREROS</a></li>
@@ -49,6 +49,7 @@
         <li><a href="OTROS.php">OTROS</a></li>
         <li><a href="FORMULARIO.php">FORMULARIO</a></li>
     </menu>
+
 
     <br>
     <br>
