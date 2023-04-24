@@ -47,6 +47,13 @@
         <li><a href="FORMULARIO.php">FORMULARIO</a></li>
     </menu>
         
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        
 <?php
             if( (isset($_POST["names"])) && (isset($_POST["ages"])) && (isset($_POST["estado"])) && (isset($_POST["surname"])) && (isset($_POST["opciones"]))) {
                 echo "Bienvenido ". $_POST['names'] ; 
@@ -58,13 +65,7 @@
                     echo "<p>".$seleccion ."</p>";
                 }
             }
-            
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    
         ?>
     <form action="<?php $_PHP_SELF ?>" method="POST">
         <div Formulario:><br/>
