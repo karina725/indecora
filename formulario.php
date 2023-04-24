@@ -1,3 +1,52 @@
+<html>
+    <head>
+        <title>INDECORA</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content=""/>
+        <meta name="author" content="karina guadalupe barragan jara"/>
+    </head>
+    <body>
+        <link type="text/css" rel="stylesheet" href="estilo/estilo1.css">
+    <p> 
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="imagenes/imagen3.png" width="50px" height="50px" HSPACE="0"  aling ="right" aling= "justify">BLOG&nbsp&nbsp&nbsp
+        <img src="imagenes/imagen4.png" width="50px" height="40px" HSPACE="0"  aling ="right" aling= "justify"  >CUENTA&nbsp&nbsp&nbsp&nbsp
+        <img src="imagenes/imagen5.png" width="60px" height="40px" HSPACE="0"  aling ="right" aling= "justify">UBICACION&nbsp&nbsp&nbsp
+        <img src="imagenes/imagen6.png" width="70px" height="40px" HSPACE="0"  aling ="right" aling= "justify">33-24-93-09-55
+    </p>
+            
+    <div class="titulo">
+        <img src="imagenes/imagen1.png"width="300px" height="300px" />
+        <div class="titulo-texto">INDECORA</div>
+        <div class="titulo-texto1">UNA SOLUCION PARA TODOS</div> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        <img src="imagenes/imagen2.png"width="200px"/>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+     <menu>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="COJINES.html">COJINES</a></li>
+        <li><a href="FLOREROS.html">FLOREROS</a></li>
+        <li><a href="LAMPARAS.html">LAMPARAS</a></li>
+        <li><a href="TAPETES.html">TAPETES</a></li>
+        <li><a href="CUADROS.html">CUADROS</a></li>
+        <li><a href="ESCULTURAS.html">ESCULTURAS</a></li>
+        <li><a href="REGALOS.html">REGALOS</a></li>
+        <li><a href="OTROS.html">OTROS</a></li>
+        <li><a href="FORMULARIO.php">FORMULARIO</a></li>
+    </menu>
+
 <?php
 // Inicializar un array para almacenar los registros
 $registros = array();
@@ -90,4 +139,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <input type="hidden" name="accion" value="editar">
                         <input type="hidden" name="indice" value="<?php echo $indice; ?>">
                         <input type="submit" value="Editar">
-                    </form
+        </form>
+        
+    </body>
+<html>
