@@ -67,7 +67,7 @@
 
 <?php
 // Conectar a la base de datos
-$servername = "us-mm-auto-dca-06-b.cleardb.net";
+$servername = "us-mm-auto-dca-06-a.cleardb.net";
 $username = "b69e0e598b9ebb";
 $password = "45dff538 ";
 $dbname = "heroku_e819e804397f55a";
