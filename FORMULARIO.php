@@ -67,10 +67,10 @@
 
 <?php
 // Conectar a la base de datos
-$servername = "us-mm-auto-sfo-06-bh.cleardb.net";
-$username = "b69e0e598b9ebb";
-$password = "45dff538 ";
-$dbname = "heroku_e819e804397f55a";
+$servername = "us-cdbr-east-06.cleardb.net";
+$username = "b264e7f33d46d8";
+$password = "a4b22f42 ";
+$dbname = "heroku_63529e2d71924ab";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
