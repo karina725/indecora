@@ -50,7 +50,7 @@
         <meta charset="UTF-8"/>
         <meta name="description" content=""/>
         <meta name="author" content="karina guadalupe barragan jara"/>
-        <link type="text/css" rel="stylesheet" href="estilo/estilos.css">
+        <link type="text/css" rel="stylesheet" href="estilo/estilos1.css">
 
     </head>
     <body>
