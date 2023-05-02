@@ -7,7 +7,7 @@
     <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=tQMLENueorX5rq5dS1mdZQJx-sbl2F7z2udnmBJlFHOUn0uxObBoso7nJWAuTOIsQ2-nHOiLERq5CYBkNg2u5WMC3AbqmiaTplBZH9rzQJSD-8Mq2kBSd0pu0HZX1e82un4g1eN1wyKdc9bTM3kWoHWXjzMJj58EW0Gy1Y0IjuOyBZqawSUVWCQsUoFLgeo3_uKgI8mdVGwR5Ftd9NAUUm5IMUvCEal06p6dv1Kdez4lcJc72HeqJ55QrKf0qjvaB3HLiS05YcJb0l3I_rVFJ96b-08-HkGvqbueA6F1e6-qaIB4SdZsnhXVT8WlPqTK3SsjN96mHeT7LiG9lFFCn1hBVwWYROyjC3NjKjd0D4KPb7FOkNtAO1RgDyaqzJl6B5urGt-EreGKPHIdpA65A-_k036hfEO1-aE1Yfw4DEuv1Y4kjzxkxY38mfNyYQkIgm8kRgCTjMXOv9Hvq_JJyUsyi0T2cCnozgIUo7_ZaAUqXYsKNLEQ4CZ_GDJAP3AsNbCtEdn6bsPo8xRskOtCh_hT5QQZJeu0j83KhFKiXzyG6rDECoKONWqP7kdK7GmiE_NbZ2FQViBntFIXmHvCCBK5VQesW8XoeUHtAnC9iULzEelTHVFdZ-oen5k9-MjlnRUUr6nrdY4iH9bP7wziPuCkKV2jgu6omhPJ08Vkw8Flp2zfMhN23f0VNlYn05ypwkUXKUrZ7Dn1SHszIjpFs4rlvUE4NfgzPrK-p5IPq4RYLzjozGS4hXpS8yuwa-_PDEhKTC9kcRls6oTHhxK5bcpfVbVb8b0BcWFdyQTQJAWTx54gunUKZOUc85kskYcwS1nqO_llwjjjmlcyLZAH77OSQb1HGxSiT721Uyeo-mM80K6yvdItP6pQahcLiCC8rY1-WhgfxzYuUIQu7z2HvwRC8u4E61IoyvSJnjkLHhd30NPTU9rP3sTydEoZEOkNgd1ycqA5zrDZIaNJVP32v9xEcK1qyOZL2fSqNFjTFxAPAnujGiroH-827-__Rk7LcvQliISP9YfD4f4qV3Ykvv2x6WIxwBjPFlPoTPyn-SpIMiUreGhAPuAIuDUq8LeUjd1PT8BKC36FJ3rEX0zZykwNjBmJ48ZaGR147UI6DcUZowrBh-rqISm507Vnn7mSNF71fZ0AE0RrKCb7XYh8Vee7uf0W75q75aGFyuFtrnl9cSLHXGZoM0b6OzRHSMgwleZaqgjY6p_KAGMm5PrdFMznE2uRlDc0N_BefpzV_xUOPNZy_TuHEHmwbeE7-FgVazJ1x3-VagA15PKxQyLZKaQQdh6o-K09WN95939tFmN9OTbuWOjlqu133oTRk7r90TfaItn93t0sK3BZ0eW8h8AhAf53H7cbM9rxE22-CEzp3yoXQrYOVqBInc4reHkXb6QX5F1ilR_Kdtpswa7OkVkNIlaN8nzHCTHNh8fg7z1hxcp-WbD3dN4xrDWPBXZVS1c1MMLtHW9omAzCEs3DE4GgGUeINix6yINk0bZptUsftPZul3H89g37LPGCn4OPJ_ZF06TDkHe53-S7TiXkP2zQ-rgUEFOQVE7byncO8n5fTKSliCWc8O04Y9CDjsTmA-Ss4Ll2aNDkuCD_0Cofqg" charset="UTF-8"></script></head>
     <link href="https://fonts.googleapis.com/css2?family=Shalimar&display=swap" rel="stylesheet">
     <body>
-        <link type="text/css" rel="stylesheet" href="estilo/estilo1.css">
+        <link type="text/css" rel="stylesheet" href="estilo/estilos1.css">
     <div class="menuusuario">
             <img src="imagenes/imagen3.png" width="50px" height="50px" HSPACE="0"  aling ="right" aling= "justify">BLOG&nbsp&nbsp&nbsp
             <img src="imagenes/imagen4.png" width="50px" height="40px" HSPACE="0"  aling ="right" aling= "justify"  >CUENTA&nbsp&nbsp&nbsp&nbsp
@@ -47,7 +47,6 @@
         <li><a href="ESCULTURAS.php">ESCULTURAS</a></li>
         <li><a href="REGALOS.php">REGALOS</a></li>
         <li><a href="OTROS.php">OTROS</a></li>
-        <li><a href="FORMULARIO.php">FORMULARIO</a></li>
     </menu>
 
 
