@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Shalimar&display=swap" rel="stylesheet">
 
     <body>
-        <link type="text/css" rel="stylesheet" href="estilo/estilo1.css">
+        <link type="text/css" rel="stylesheet" href="estilo/estilos1.css">
     <div class="menuusuario">
             <img src="imagenes/imagen3.png" width="50px" height="50px" HSPACE="0"  aling ="right" aling= "justify">BLOG&nbsp&nbsp&nbsp
             <img src="imagenes/imagen4.png" width="50px" height="40px" HSPACE="0"  aling ="right" aling= "justify"  >CUENTA&nbsp&nbsp&nbsp&nbsp
@@ -48,7 +48,6 @@
         <li><a href="ESCULTURAS.php">ESCULTURAS</a></li>
         <li><a href="REGALOS.php">REGALOS</a></li>
         <li><a href="OTROS.php">OTROS</a></li>
-        <li><a href="FORMULARIO.php">FORMULARIO</a></li>
     </menu>
 
 
